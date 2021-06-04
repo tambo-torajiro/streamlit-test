@@ -27,16 +27,16 @@ if button:
 expander = st.beta_expander('問い合わせ')
 expander.write('問い合わせ内容を書く')
 
-# option = st.text_input('あなたの趣味は？')
-# text = st.slider('あなたの今の調子は？', 0, 100, 50)
+option = st.text_input('あなたの趣味は？')
+text = st.slider('あなたの今の調子は？', 0, 100, 50)
 
-# 'あなたの趣味は', option, 'です。'
-# 'コンディション:', text, 'です'
-# option = st.selectbox(
-#     '好きな数字を教えて下さい',
-#     list(range(1, 11))
-# )
-# 'あなたの好きな数字は', option, 'です'
+'あなたの趣味は', option, 'です。'
+'コンディション:', text, 'です'
+option = st.selectbox(
+    '好きな数字を教えて下さい',
+    list(range(1, 11))
+)
+'あなたの好きな数字は', option, 'です'
 
 # if st.checkbox('Show Image'):
 #     img = Image.open('sample.JPG')
